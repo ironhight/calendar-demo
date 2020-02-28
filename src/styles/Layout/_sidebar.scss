@@ -1,0 +1,26 @@
+.sidebar {
+    position: absolute;
+    .sidebar__images {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 60px;
+        .images--item {
+            padding: 10px;
+            border: 1px solid rgb(194, 176, 176);
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(100, 182, 18);
+            }
+            &.active {
+                background-color: rgb(100, 182, 18);
+            }
+            &:focus {
+                background-color: rgb(100, 182, 18);
+            }
+        }
+    }
+    .images__item--setting {
+        margin: 30px 10px;
+    }
+}

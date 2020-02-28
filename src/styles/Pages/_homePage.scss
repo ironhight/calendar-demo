@@ -1,0 +1,51 @@
+.HomePage {
+    display: flex;
+    background-color: #f0f3f8;
+    .home__picker {
+        display: inline-flex;
+        margin-left: 60px;
+        .arrow-test {
+            margin: 10px 20px;
+        }
+        .home__picker--pickday {
+            padding-top: 10px;
+        }
+    }
+
+    .home__location {
+        padding-top: 10px;
+        flex-wrap: wrap;
+        margin-left: 200px;
+    }
+
+    .home__doctor {
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+
+    .home__byday {
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+
+    .home__icon {
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .home__display {
+        padding-top: 10px;
+        margin: 0 16px;
+        .display__1 {
+            margin: 0 10px;
+        }
+    }
+}
+
+.calenderss {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 0 5px;
+    text-align: center;
+    width: 90%;
+}

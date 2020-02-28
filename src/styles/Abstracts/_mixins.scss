@@ -1,0 +1,20 @@
+@mixin iconHeader(
+  $fs,
+  $fw,
+  $color,
+  $bg-color,
+  $boder,
+  $pd-y,
+  $pd-x,
+  $bg-hover
+) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+  background-color: $bg-color;
+  border: 1px solid $boder;
+  padding: $pd-y $pd-x;
+  &:hover {
+    background-color: $bg-hover;
+  }
+}

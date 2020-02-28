@@ -1,0 +1,27 @@
+.calenderHeader {
+    // position: relative;
+    .calenderHeader-top {
+        // position: fixed;
+
+        .calenderHeader__row {
+            .calenderHeader__item {
+                display: flex;
+                flex-wrap: wrap;
+
+                margin-left: 25px;
+                font-weight: bold;
+                font-size: 15px;
+                .calender__day {
+                    margin-right: 15px;
+                    &.end {
+                        color: rgb(30, 161, 45);
+                    }
+                }
+
+                .calender__th {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

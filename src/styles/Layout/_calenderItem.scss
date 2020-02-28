@@ -1,0 +1,34 @@
+.CalenderItem {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    .colItem {
+        height: 100px;
+        border: 1px solid #f0f3f8;
+        background-color: rgb(255, 255, 255);
+        padding: 10px 5px;
+        .doctor {
+            display: flex;
+            flex-direction: row;
+            .doctor__avatar {
+                margin-left: 5px;
+            }
+            .doctor__name {
+                margin-left: 30px;
+                text-align: start;
+            }
+        }
+
+        &.edit {
+            background-color: #b3edae;
+        }
+
+        &.doctor {
+            background-color: #f0f3f8;
+        }
+        .doctor__appts {
+            margin-top: 25px;
+        }
+    }
+}
